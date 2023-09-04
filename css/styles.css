@@ -1,0 +1,558 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    user-select: none;
+    text-rendering: optimizeLegibility;
+    background-color: #F5F5F5;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cabin";
+    color: #1D2746;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+h3{
+    font-size: 28px;
+    font-family: "Lato";
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 96px;
+    color: #1D2746;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: #1D2746;
+}
+
+h2{
+    font-size: 55px;
+    font-family: "Lato";
+    font-weight: bold;
+    color: #1D2746;
+}
+
+h5{
+    color: #697694;
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+/*section1*/
+.section1{
+    background: url("../images/unsplash_CVTmLMv5oG4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    padding: 15px 180px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #888E9E;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-con{
+    display: flex;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-items{
+    margin-left: 30px;
+}
+
+.login{
+    width: 99px;
+    height: 49px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #1D2746;
+    outline: none;
+    position: absolute;
+    left: 76%;
+}
+
+.apartment{
+    width: 154px;
+    height: 49px;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+}
+
+.explore-wrapper-con{
+/* background-color: red; */
+    /* padding: 170px 0px; */
+    position: relative;
+    top: 200px;
+}
+
+.explore-wrapper-con > h1{
+    line-height: 100px;
+    margin-bottom: 15px;
+}
+.explore-wrapper-con > h1 > span{
+    display: block;
+}
+
+.explore-wrapper-con > p {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.findapartment-arrow{
+    width: 268px;
+    height: 64px;
+    background-color: #FE7474;
+    font-size: 24px;
+    font-family: "Lato";
+    font-weight: bold;
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+}
+
+.findapartment-arrow> .fa-arrow-right{
+    margin-left: 10px;
+}
+
+
+
+
+/*section2*/
+.section2{
+    display: flex;
+    align-items: center;
+    padding: 70px 180px;
+    background-color: white;
+}
+
+.hero-image{
+    width: 45%;
+}
+
+.hero-image > img {
+    width: 100%;
+}
+
+.hero-text{
+    width: 40%;
+    /* background-color: red; */
+    margin-left: 70px;
+}
+
+.hero-text > h2 {
+    margin-bottom: 20px;
+}
+
+.hero-text > h5 {
+    margin-bottom: 20px;
+}
+
+.learn-more > i{
+    /* position: relative;
+    top: 2px; */
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/*section3*/
+.section3{
+    padding: 100px 180px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+}
+
+.section3-text{
+    width: 36%;
+    /* background-color: red; */
+}
+
+.section3-text > h2 {
+    width: 80%;
+    margin-bottom: 10px;
+    /* line-height: 116.5px; */
+}
+
+.section3-text > h5{
+    margin-bottom: 10px;
+}
+
+.section3-image{
+    width: 50%;
+    position: relative;
+    margin-left: 70px;
+}
+
+.first-img{
+    width: 90%;
+    margin: 20px auto;
+    /* z-index: -1; */
+    
+}
+
+.first-img > img {
+    width: 100%;
+    /* z-index: 1; */
+}
+
+
+.small{
+    /* z-index: -1; */
+    display: block;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    /* background-color: red; */
+}
+
+.small2 {
+    z-index: ;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+
+
+
+/*section4*/
+.section4{
+    padding: 20px 100px 0px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+}
+
+.section4 > img {
+    width: 66%;
+}
+
+.updated-con{
+    width: 34%;
+    position: relative;
+    right:200px;
+}
+
+.updated-con > h2{
+    margin-bottom: 20px;
+}
+
+.updated-con > p {
+   margin-bottom: 20px;
+}
+
+.form-con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-con > input{
+    width: 60%;
+    height: 64px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 0px 10px;
+    outline: none;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-con > input::placeholder{
+    outline: none;
+    color: #BDBDBD;
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-con > button{
+    width: 40%;
+    height: 64px;
+    background-color: #FE7474;
+    color: white;
+    outline: none;
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
+
+
+/*section5*/
+.section5{
+    background-color: #F5F5F5;
+    padding: 50px 220px;
+    margin-bottom: 70px;
+}
+
+.section5 > h2 {
+    text-align: center;
+    color: #324162;
+}
+
+.section5 > h5 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.fourstars-wrapper-con{
+    box-shadow: 5px 5px 10px rgb(221, 216, 216);
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+    background-color: white;
+}
+
+.fourstars-wrapper-con > img {
+    width: 45%;
+    position: relative;
+    right: 10%;
+    bottom: 35px;
+}
+
+.fourstars-con{
+    width: 50%;
+    /* margin-left: 50px; */
+}
+
+.five{
+    margin-bottom: 40px;
+}
+
+.Amy {
+    font-size: 16px;
+    color: #697694;
+    font-weight: bold;
+    font-family: Cabin;
+    margin-bottom: 3px;
+}
+
+.slack{
+    font-family: Cabin;
+    font-size: 13px;
+    color: #697694;
+    font-weight: 100;
+    margin-bottom: 70px;
+}
+
+.date{
+    font-family: Cabin;
+    font-size: 13px;
+    color: #324162;
+    font-weight: 500;
+}
+
+.left-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-right-con{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #4DA1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+
+.left > i {
+    color: #4DA1FF;
+}
+
+.right{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color: #4DA1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right > i {
+    color: white;
+}
+
+
+/*section6*/
+.section6{
+    background-color: #3C4862;
+    padding: 40px 180px;
+}
+
+.easy-wrapper{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.easy-find-con > h3 > span{
+    color: #FE7474;
+}
+
+.footer-wrapper{
+    display: flex;
+}
+
+.footer-menu{
+    display: flex;
+}
+
+.footer-items:not(:first-child){
+    margin-left: 80px;
+}
+
+.easy-find-con > p{
+    width: 60%;
+}
+
+.footer-items > p {
+    margin-bottom: 14px;
+}
+
+.footer-items >p:nth-child(1){
+    color: white;
+    font-family: "Cabin";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-items>p:not(:first-child){
+    font-family: "Cabin";
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.571);
+}
+
+.footer-items > p > span{
+    display: block;
+    margin-top: 3px;
+}
+
+.footer-form > p {
+    font-size: 13px;
+    font-family: "Cabin";
+    color: rgba(255, 255, 255, 0.571);
+    margin-bottom: 20px;
+
+}
+
+.footer-form-wrapper{
+    width: 100%;
+    background-color: rgba(253, 251, 251, 0.091);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.footer-form-wrapper > input{
+    height: 42px;
+    background-color: transparent;
+    border: none;
+}
+
+.footer-form-wrapper > input::placeholder{
+    font-size: 13px;
+    color: white;
+    font-family: "Cabin";
+}
+
+.footer-items:nth-child(4){
+    width: 304.08px;
+}
+
+.footer-form-wrapper > i {
+    color: rgba(255, 255, 255, 0.269);
+}
+
+.copyright > p{
+    font-size: 13px;
+    font-family: "Cabin";
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.571);
+}
+
+
+/*section7*/
+
+
+
+
+/*section8*/
+
+
+
+
+/*section9*/
+
+
+
+
+/*section10*/
+
+
+
+
+/*section11*/
